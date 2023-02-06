@@ -12,3 +12,8 @@ Many videos have been converted to sequences of hand/head locations and saved. A
 ## TODOs
 1. Dedicate the compute needed to convert more samples and train the baseline classifier.
 2. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.
+
+## Implementations
+```python
+
+```

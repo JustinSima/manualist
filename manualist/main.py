@@ -10,7 +10,7 @@ from evaluate import evaluate_performance
 # Training arguments.
 batch_size = 32
 epochs = 5
-learning_rate = 0.0001
+learning_rate = 1e-3
 
 # Data loader.
 one_hand_120 = OneHand120Padded(
@@ -37,7 +37,7 @@ model = URHM(
 optimizer = torch.optim.Adam(model.model.parameters(), lr=learning_rate)
 loss_function = torch.nn.MSELoss()
 
-# Train.
+# Training loop.
 model.train(
     project_name='Untrained Right Hand Only',
     experiment_config={

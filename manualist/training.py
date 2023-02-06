@@ -13,6 +13,9 @@ def training_loop(
     l1_norm=None, l2_norm=None,
     device=None
 ):
+    """ Basic training loop.
+    Commented lines log training performance to WandB.
+    """
     # Start new Weights and Biases project.
     # wandb.init(project=project_name, entity='signai')
     # wandb.config = experiment_config

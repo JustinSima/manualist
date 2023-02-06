@@ -24,12 +24,15 @@ from data.datasets.one_hand import OneHand120
 from constants import DATA_SOURCE, DATA_DIRECTORY
 
 # --- Annotater.
+# Loads videos, annotates with hand and nose landmarks, save results for training later.
 annotater.annotate_videos(data_source=DATA_SOURCE, save_directory=DATA_DIRECTORY)
 
 # --- Label encoding.
+# Loads desired label embeddings for every word in current vocabular, as a dictionary.y.
 embeddings = create_label_embeddings(model_name='glove-twitter-25')
 
 # --- Loading samples.
+# Load json samples.
 example_paths = [
     'files/data/train/00414.json',
     'files/data/train/70356.json',

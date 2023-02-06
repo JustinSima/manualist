@@ -5,7 +5,10 @@ import torch.nn as nn
 from data.encoding.label_mapping import vec_to_word
 
 
-def evaluate_performance(device, data_loader, model):
+def evaluate_performance(device, data_loader: torch.utils.data.DataLoader, model: nn.Module):
+    """ Evaluate model performance for on a given dataloader.
+    Currently only calculates accuracy score, but more options need to be added.
+    """
     count = 0
     count_correct = 0
     with torch.no_grad():

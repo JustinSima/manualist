@@ -21,17 +21,11 @@ Now let's take a look at the x-y projection of an entire hand through a series o
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="files/images/single-hand-0.png">  Frame 1 
-| <img width="1604" src="file/images/single-hand-1.png"> Frame 2
-|<img width="1604" src="file/images/single-hand-2.png"> Frame 3
+|<img width="400" src="files/images/single-hand-0.png">  Frame 1 | <img width="400" src="files/images/single-hand-1.png"> Frame 2 |<img width="400" src="files/images/single-hand-2.png"> Frame 3
 |
-|<img width="1604" src="files/images/single-hand-3.png">  Frame 4
-| <img width="1604" src="file/images/single-hand-4.png"> Frame 5
-|<img width="1604" src="file/images/single-hand-5.png"> Frame 6
+|<img width="400" src="files/images/single-hand-3.png">  Frame 4 | <img width="400" src="files/images/single-hand-4.png"> Frame 5 |<img width="400" src="files/images/single-hand-5.png"> Frame 6
 |
-|<img width="1604" src="files/images/single-hand-6.png">  Frame 7
-| <img width="1604" src="file/images/single-hand-7.png"> Frame 8
-|<img width="1604" src="file/images/single-hand-8.png"> Frame 9
+|<img width="400" src="files/images/single-hand-6.png">  Frame 7 | <img width="400" src="files/images/single-hand-7.png"> Frame 8 |<img width="400" src="files/images/single-hand-8.png"> Frame 9
 |
 
 ## TODOs

@@ -98,5 +98,5 @@ for batch_number, (features, labels) in enumerate(data_loader):
 ```
 
 ## TODOs
-1. Dedicate the compute needed to convert more samples and train the baseline classifier.
+1. Dedicate the compute needed to train the baseline classifier.
 2. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.

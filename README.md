@@ -24,7 +24,7 @@ Now let's take a look at the x-y projection of an entire hand through a series o
 |<img width="400" src="files/images/single-hand-6.png">  Frame 7 | <img width="400" src="files/images/single-hand-7.png"> Frame 8 |<img width="400" src="files/images/single-hand-8.png"> Frame 9 |
 
 ## Current State
-Many videos have been converted to sequences of hand/head locations and saved. A simple classification model has been built to predict the GloVe embedding of these samples, and has been trained for a handful of batches.
+12,370 videos have been converted to sequences of hand/head locations and saved. A simple classification model has been built to predict the GloVe embedding of the labels, and has been trained for a handful of batches.
 
 ## Implementations
 ```python

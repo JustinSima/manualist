@@ -13,7 +13,7 @@ Many videos have been converted to sequences of hand/head locations and saved. A
 Instead of looking at the entirety of every frame, we're isolating the hands in our videos using MediaPipe hands, and use these landmarks as the input of our model. Let's visualize tracking a single landmark in time.
 ![single point y](files/images/single-point-y.png)
 
-Now let's look at another, with null value replaced with zeros.
+Now let's look at another, with null values replaced with zeros.
 
 ![single point x](files/images/single-point-x.png)
 
@@ -21,12 +21,9 @@ Now let's take a look at the x-y projection of an entire hand through a series o
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="400" src="files/images/single-hand-0.png">  Frame 1 | <img width="400" src="files/images/single-hand-1.png"> Frame 2 |<img width="400" src="files/images/single-hand-2.png"> Frame 3
-|
-|<img width="400" src="files/images/single-hand-3.png">  Frame 4 | <img width="400" src="files/images/single-hand-4.png"> Frame 5 |<img width="400" src="files/images/single-hand-5.png"> Frame 6
-|
-|<img width="400" src="files/images/single-hand-6.png">  Frame 7 | <img width="400" src="files/images/single-hand-7.png"> Frame 8 |<img width="400" src="files/images/single-hand-8.png"> Frame 9
-|
+|<img width="400" src="files/images/single-hand-0.png">  Frame 1 | <img width="400" src="files/images/single-hand-1.png"> Frame 2 |<img width="400" src="files/images/single-hand-2.png"> Frame 3 |
+|<img width="400" src="files/images/single-hand-3.png">  Frame 4 | <img width="400" src="files/images/single-hand-4.png"> Frame 5 |<img width="400" src="files/images/single-hand-5.png"> Frame 6 |
+|<img width="400" src="files/images/single-hand-6.png">  Frame 7 | <img width="400" src="files/images/single-hand-7.png"> Frame 8 |<img width="400" src="files/images/single-hand-8.png"> Frame 9 |
 
 ## TODOs
 1. Dedicate the compute needed to convert more samples and train the baseline classifier.

@@ -26,10 +26,6 @@ Now let's take a look at the x-y projection of an entire hand through a series o
 |<img width="400" src="files/images/single-hand-3.png">  Frame 4 | <img width="400" src="files/images/single-hand-4.png"> Frame 5 |<img width="400" src="files/images/single-hand-5.png"> Frame 6 |
 |<img width="400" src="files/images/single-hand-6.png">  Frame 7 | <img width="400" src="files/images/single-hand-7.png"> Frame 8 |<img width="400" src="files/images/single-hand-8.png"> Frame 9 |
 
-## TODOs
-1. Dedicate the compute needed to convert more samples and train the baseline classifier.
-2. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.
-
 ## Implementations
 ```python
 """ Example driver code for current functionalities."""
@@ -100,3 +96,7 @@ for batch_number, (features, labels) in enumerate(data_loader):
         break
 
 ```
+
+## TODOs
+1. Dedicate the compute needed to convert more samples and train the baseline classifier.
+2. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.

@@ -3,7 +3,7 @@ import json
 from tqdm import tqdm
 from dataclasses import dataclass
 
-import utils.landmarks as landmarks
+import data.landmarks as landmarks
 
 
 @dataclass

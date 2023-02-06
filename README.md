@@ -11,6 +11,7 @@ Many videos have been converted to sequences of hand/head locations and saved. A
 
 ## Landmarks
 Instead of looking at the entirety of every frame, we're isolating the hands in our videos using MediaPipe hands, and use these landmarks as the input of our model. Let's visualize tracking a single landmark in time.
+
 ![single point y](files/images/single-point-y.png)
 
 Now let's look at another, with null values replaced with zeros.

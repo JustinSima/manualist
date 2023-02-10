@@ -3,7 +3,7 @@ import json
 from tqdm import tqdm
 from dataclasses import dataclass
 
-import data.landmarks as landmarks
+import data.encoding.landmark_encoder as landmark_encoder
 
 
 @dataclass
@@ -62,7 +62,7 @@ def annotate_videos(data_source, save_directory):
                 continue
 
             # Create and save sample. Catch and store errors.
-            sample.features = landmarks.create_sample(sample.url)
+            sample.features = landmark_encoder.create_sample(sample.url)
             failure = sample.save_sample(save_path=save_name)
 
             if failure:

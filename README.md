@@ -29,7 +29,7 @@ Now let's take a look at the x-y projection of an entire hand through a series o
 ## Implementations
 ```python
 """ Example driver code for current functionalities."""
-import data.annotater as annotater
+import data.preprocessing.annotater as annotater
 from data.encoding.label_encoder import create_label_embeddings
 from data.datasets.one_hand import OneHand120, load_sample
 

@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 
-from data.encoding.label_mapping import vec_to_word
+from data.encoding.label_encoder import vec_to_word
 
 
 def evaluate_performance(device, data_loader: torch.utils.data.DataLoader, model: nn.Module):

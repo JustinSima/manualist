@@ -1,6 +1,7 @@
-""" Use webcam to capture and display a reference model input."""
+""" Use webcam to capture and display MediaPipe landmarks. Run as script."""
 import cv2
 import mediapipe as mp
+
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands

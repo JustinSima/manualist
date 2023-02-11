@@ -1,7 +1,7 @@
 """ Embed labels as word vectors."""
-import re
 import os
 import json
+
 import numpy as np
 import gensim.downloader
 

@@ -1,8 +1,7 @@
-""" Encode a video as a pytorch Tensor of landmarks."""
+""" Function to load video and display with landmarks."""
 import cv2
 import mediapipe as mp
 import pafy
-import pickle
 import torch
 
 mp_drawing = mp.solutions.drawing_utils
@@ -11,7 +10,7 @@ mp_hands = mp.solutions.hands
 mp_pose = mp.solutions.pose
 
 
-def annotate_video(video_path: str) -> torch.Tensor:
+def display_annotated_video(video_path: str) -> torch.Tensor:
     """ Loads a video and displays how that video would be labeled by MediaPipe.
 
     Args:
@@ -20,6 +19,7 @@ def annotate_video(video_path: str) -> torch.Tensor:
     video_file = load_video(video_path)
     
     capture = cv2.VideoCapture(video_file)
+
     # Open hand and pose context manager.
     with mp_hands.Hands(
         static_image_mode=False,
@@ -66,7 +66,7 @@ def annotate_video(video_path: str) -> torch.Tensor:
             cv2.imshow('MediaPipe Hands', cv2.flip(image, 1))
             if cv2.waitKey(5) & 0xFF == 27:
                 break
-        
+
         capture.release()
 
 def load_video(video: str):

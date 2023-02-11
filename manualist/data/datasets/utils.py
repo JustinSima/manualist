@@ -1,6 +1,6 @@
 """ Utilities that are useful for building datasets."""
-import torch
 import numpy as np
+import torch
 
 
 class PadSequence:

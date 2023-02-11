@@ -1,5 +1,6 @@
 """ Functionalized training loop with optional link to WandB."""
 import datetime
+
 from tqdm import tqdm
 import torch
 import torch.nn as nn

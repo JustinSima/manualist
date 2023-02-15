@@ -1,0 +1,13 @@
+name: manualist
+
+dependencies:
+  - python
+  - conda-forge::opencv
+  - conda-forge::numpy
+  - conda-forge::tqdm
+  - pytorch::pytorch
+  - pip
+  - pip:
+    - mediapipe
+    - pafy
+    - youtube-dl==2020.12.2

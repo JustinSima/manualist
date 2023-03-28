@@ -1,4 +1,4 @@
-# manualist
+# manualist: A sign language detection model
 
 When it comes to Natural Language Processing, text and oral speech are just a start; we still have the whole manual world to explore! The ideal manual language AI agent would be one fluent in common sign languages and capable of quicly learning others. This is my attempt to build an end-to-end system for American Sign Language to English translation - a modest, yet surprisingly challenging step towards the ideal.
 

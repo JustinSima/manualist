@@ -99,4 +99,6 @@ for batch_number, (features, labels) in enumerate(data_loader):
 
 ## TODOs
 1. Dedicate the compute needed to train the baseline classifier.
-2. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.
+2. Experiment with alternative model frameworks - likely Transformers.
+3. Attempt to incorporate unsupervised pretraining by creating a hand-to-vec embedding model, to be used instead of raw hand and head coordinates.
+4. Realize that Kaggle released a competition with the same idea (ASL translation using MediaPipe hand annotations), so now I can see what worked best there.

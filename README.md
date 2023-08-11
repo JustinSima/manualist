@@ -1,6 +1,6 @@
 # manualist: A sign language detection model
 
-When it comes to Natural Language Processing, text and oral speech are just a start; we still have the whole manual world to explore. This is my attempt to build an end-to-end system for American Sign Language to English translation.
+My attempt to build an end-to-end system for American Sign Language to English translation.
 
 The pipeline for this translation system is as follows:
 1. Instead of using the entire image for classification, we utilize MediaPipe to track hand and pose positions, and only use these landmarks. For now, only head position has been saved from the pose tracking system. Using separate predictors for hand and head landmarks introduces some normalization issues, which have not yet been addressed. Because of this, only hand positions are currently being used. We use all 21 landmarks provided by MediaPipe hands.
